@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 paru -S --noconfirm --needed \
   hyprland \
   hyprland-qtutils \
@@ -11,7 +10,7 @@ paru -S --noconfirm --needed \
   hyprsunset \
   waybar \
   mako \
-  walker \
+  walker-bin \
   uwsm \
   wl-clipboard \
   wl-clip-persist \

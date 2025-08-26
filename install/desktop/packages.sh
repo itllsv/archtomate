@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo "2" | paru -S walker-bin --noconfirm --needed
-
 paru -S --noconfirm --needed \
 	tmux \
 	tmuxinator \
