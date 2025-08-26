@@ -1,0 +1,21 @@
+{
+   "position": "top",
+		 "exclusive": true,
+    "passthrough": false,
+    "height": 5,
+    "modules-center": ["clock"],
+    "modules-right": ["memory", "tray"],
+    "tray": {
+        "spacing": 10
+    },
+		"date": {
+        "format": "{:%d-%m | %I:%M }",
+		},
+    "clock": {
+        "format": "{:%I:%M }",
+        "format-alt": "{:%d/%m}"
+    },
+    "memory": {
+        "format": "{}% "
+    },
+}
