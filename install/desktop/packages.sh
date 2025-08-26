@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Instalando walker-bin primeiro..."
-if ! pacman -Qi walker-bin &>/dev/null; then
-	printf "2\n" | paru -S walker-bin --noconfirm --needed
-fi
+echo "2" | paru -S walker-bin --noconfirm --needed
 
 paru -S --noconfirm --needed \
 	tmux \
