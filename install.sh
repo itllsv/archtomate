@@ -9,7 +9,7 @@ ansi_art='
 ██   ██ ██   ██  ██████ ██   ██    ██     ██████  ██      ██ ██   ██    ██    ███████ 
 '
 
-REPO_URL="https://github.com/itllsv/archtomate"
+REPO_URL="git@github.com:itllsv/archtomate.git"
 INSTALL_DIR="$HOME/.local/share/archtomate"
 
 clear
