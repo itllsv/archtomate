@@ -14,7 +14,7 @@ if [ -n "$TMUX" ]; then
   export TERM=tmux-256color
 fi
 
-function ssh-add() {
+function sshadd() {
   eval "$(ssh-agent -s)"
   ssh-add ~/.ssh/itllsv
 }
