@@ -5,7 +5,7 @@ My Arch Linux automated setup and configuration tool
 ## Installation
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/itllsv/archtomate/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/itllsv/archtomate/master/install.sh | bash
 ```
 
 ## Requirements
