@@ -47,11 +47,3 @@ sudo chsh -s /usr/bin/zsh "$USER"
 log "Installation completed!"
 
 echo "The system needs to reboot to apply all changes."
-read -p "Reboot now? (y/N): " -n 1 -r
-echo
-if [[ $REPLY =~ ^[Yy]$ ]]; then
-    log "Rebooting system..."
-    sudo reboot
-else
-    log "Reboot later with: sudo reboot"
-fi
