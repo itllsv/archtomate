@@ -39,6 +39,6 @@ paru -S --noconfirm --needed \
 	wezterm-git \
 	forticlient-vpn \
 
-	if ! command -v walker $>/dev/null; then
+	if ! command -v walker &>/dev/null; then
 		paru -S --noconfirm --needed walker-bin
 	fi
