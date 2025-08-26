@@ -1,0 +1,10 @@
+name: it
+root: ~/Code
+
+windows:
+  - editor:
+      - clear
+  - term:
+      - clear
+  - dev:
+      - clear
