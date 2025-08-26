@@ -37,6 +37,8 @@ paru -S --noconfirm --needed \
   gnome-keyring \
 	claude-code \
 	wezterm-git \
-	walker-bin \
 	forticlient-vpn \
 
+	if ! command -v walker $>/dev/null; then
+		paru -S --noconfirm --needed walker-bin
+	fi
